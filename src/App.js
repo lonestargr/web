@@ -50,10 +50,10 @@ function App() {
         <MainMenu/>
         <Content className="site-layout">
           <Routes>
-            <Route path="/" element={<Home/>}></Route>
-            <Route path="/portfolio" element={<Portfolio/>}></Route>
-            <Route path="/about" element={<About/>}></Route>
-            <Route path="/contact" element={<Contact/>}></Route>
+            <Route path="/web/" element={<Home/>}></Route>
+            <Route path="/web/portfolio/" element={<Portfolio/>}></Route>
+            <Route path="/web/about/" element={<About/>}></Route>
+            <Route path="/web/contact/" element={<Contact/>}></Route>
           </Routes> 
         </Content>
         <Footer style={{ textAlign: 'center', backgroundColor: 'white'}}>Ant Design ©2018 Created by Ant UED</Footer>
