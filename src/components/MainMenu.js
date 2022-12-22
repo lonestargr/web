@@ -53,15 +53,15 @@ function MainMenu() {
             </Menu.Item>
             <Menu.Item key="2" label='Portfolio'>
                 <div>Portfolio</div>
-                <Link to="/web/portfolio" />
+                <Link to="/web/portfolio/" />
             </Menu.Item>
             <Menu.Item key="3" label="About">
                 <div>About</div>
-                <Link to="/web/about"/>
+                <Link to="/web/about/"/>
             </Menu.Item>
             <Menu.Item key="4" label="Contact">
                 <div>Contact</div>
-                <Link to="/web/contact" />
+                <Link to="/web/contact/" />
             </Menu.Item>
         </Menu>
     </div>
