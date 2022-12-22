@@ -49,19 +49,19 @@ function MainMenu() {
             style={{backgroundColor: 'white', border: '1px solid black', fontFamily: "Arial Rounded MT Bold", borderRadius: '10px', width: '50%', display: 'flex', justifyContent: 'center'}}>
             <Menu.Item key="1" label="Home">
                 <div>Home</div>
-                <Link to="/" />
+                <Link to="/web/" />
             </Menu.Item>
             <Menu.Item key="2" label='Portfolio'>
                 <div>Portfolio</div>
-                <Link to="/portfolio" />
+                <Link to="/web/portfolio" />
             </Menu.Item>
             <Menu.Item key="3" label="About">
                 <div>About</div>
-                <Link to="/about"/>
+                <Link to="/web/about"/>
             </Menu.Item>
             <Menu.Item key="4" label="Contact">
                 <div>Contact</div>
-                <Link to="/contact" />
+                <Link to="/web/contact" />
             </Menu.Item>
         </Menu>
     </div>
