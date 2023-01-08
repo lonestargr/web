@@ -69,51 +69,50 @@ function Home() {
     <div>
         <div style={{ position: 'sticky', padding: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', width: '100%'}}>
             <Image
-              width={540}
-              height={300}
               src={ logo }
             />
           </div>
           <div>
             <div class="headingCntr">
               <Title style={{padding: '20px', margin: '0'}}>Reviews left by our satisfied customers!</Title>
-              <Title style={{padding: '10px', margin: '0'}} level={2}>Be sure to checkout our Yelp, Facebook, and Instagram for more!</Title>
-              <Title style={{padding: '10px', margin: '0'}} level={3}>*Yelp didn't approve some of the reviews left by clients but we decided to include them</Title>
+              <Title style={{padding: '20px', margin: '0'}} level={2}>Be sure to checkout our Yelp, Facebook, and Instagram for more!</Title>
           </div>
-            <Carousel autoplay effect="fade" dotPosition='top'>
-              <div class="carouselCntr">
-              <Image
-                src={ yelp1 }
-              />
-              </div>
-              <div class="carouselCntr">
+            <div style={{padding: '20px', margin: '0'}}>
+                <Carousel style={{}} autoplay effect="fade" dotPosition='top'>
+                <div class="carouselCntr">
                 <Image
-                height={400}
-                width={500}
-                src={ yelp6 }
+                    src={ yelp1 }
                 />
-              </div>
-              <div class="carouselCntr">
-                <Image
-                  src={ yelp2 }
-                />
-              </div>
-              <div class="carouselCntr">
-                <Image
-                  src={ yelp3 }
-                />
-              </div>
-              <div class="carouselCntr">
-                <Image
-                  src={ yelp4 }
-                />
-              </div>
-              <div class="carouselCntr">
-                <Image
-                  src={ yelp5 }
-                />
-              </div>
-            </Carousel>
+                </div>
+                <div class="carouselCntr">
+                    <Image
+                    height={350}
+                    width={400}
+                    src={ yelp6 }
+                    />
+                </div>
+                <div class="carouselCntr">
+                    <Image
+                    src={ yelp2 }
+                    />
+                </div>
+                <div class="carouselCntr">
+                    <Image
+                    src={ yelp3 }
+                    />
+                </div>
+                <div class="carouselCntr">
+                    <Image
+                    src={ yelp4 }
+                    />
+                </div>
+                <div class="carouselCntr">
+                    <Image
+                    src={ yelp5 }
+                    />
+                </div>
+                </Carousel>
+            </div>
         </div>
         {/* <IconFont type="icon-facebook" /> */}
     </div>

@@ -40,7 +40,7 @@ function MainHeader() {
   };
 
   return (
-        <Header style={{ position: 'sticky', display: 'flex', justifyContent: 'center', top: 0, zIndex: 1, backgroundColor: 'white' }}>
+        <Header style={{ display: 'flex', justifyContent: 'center', top: 0, zIndex: 1, backgroundColor: 'white' }}>
             <div class="header">Lone Star General Remodeling</div>
         </Header>
   );

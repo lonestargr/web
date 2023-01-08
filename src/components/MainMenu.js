@@ -46,7 +46,7 @@ function MainMenu() {
             mode="horizontal"
             defaultSelectedKeys={['1']}
             selectable="true"
-            style={{backgroundColor: 'white', border: '1px solid black', fontFamily: "Arial Rounded MT Bold", borderRadius: '10px', width: '50%', display: 'flex', justifyContent: 'center'}}>
+            style={{backgroundColor: 'white', border: 'none', fontFamily: "Arial Rounded MT Bold", borderRadius: '10px', width: '100%', display: 'flex', justifyContent: 'center'}}>
             <Menu.Item key="1" label="Home">
                 <div>Home</div>
                 <Link to="/web/" />

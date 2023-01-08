@@ -20,6 +20,15 @@ code {
   font-size: 25px;
 }
 
+@media (max-width: 700px) {
+  .header {
+    background-color: white;
+    height: 100%;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    font-size: 15px;
+  }
+}
+
 .menu{
   background-color: white;
   position: sticky;
@@ -27,6 +36,39 @@ code {
   justify-content: center; 
   width: 100%;
   padding: 20px;
+}
+
+.newClass {
+  background-color: white;
+  border: 1px solid black;
+  font-family: Arial Rounded MT Bold; 
+  border-radius: 10px;
+  width: 50%;
+  display: flex; 
+  justify-content: center;
+}
+@media (max-width: 700px) {
+  .newClass {
+    background-color: yellow;
+    border: 1px solid black;
+    font-family: Arial Rounded MT Bold; 
+    border-radius: 10px;
+    width: 50%;
+    display: flex; 
+    justify-content: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .menu {
+    background-color: white;
+    width: 100%;
+    position: sticky;
+    display: flex; 
+    justify-content: center;
+    padding: 10px 20px;
+    border: none !important;
+  }
 }
 
 .ant-menu-item-selected {
