@@ -74,8 +74,8 @@ function Home() {
           </div>
           <div>
             <div class="headingCntr">
-              <Title style={{padding: '20px', margin: '0'}}>Reviews left by our satisfied customers!</Title>
-              <Title style={{padding: '20px', margin: '0'}} level={2}>Be sure to checkout our Yelp, Facebook, and Instagram for more!</Title>
+              <Title style={{padding: '20px', margin: '0', textAlign: 'center'}}>Reviews left by our satisfied customers!</Title>
+              <Title style={{padding: '20px', margin: '0', textAlign: 'center'}} level={2}>Be sure to checkout our Yelp, Facebook, and Instagram for more!</Title>
           </div>
             <div style={{padding: '20px', margin: '0'}}>
                 <Carousel style={{}} autoplay effect="fade" dotPosition='top'>

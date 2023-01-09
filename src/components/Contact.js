@@ -7,7 +7,7 @@ import loneStarLogo from '../assets/images/lonestarlogo.jpeg'
 import { createFromIconfontCN } from '@ant-design/icons';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-const { Title } = Typography;
+const { Text, Title } = Typography;
  
 const { Header, Content, Footer } = Layout;
 
@@ -39,7 +39,13 @@ function Contact() {
   };
 
   return (
-    <h1>Hello! </h1>
+    <div style={{ position: 'sticky', padding: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', width: '100%'}}>
+      <Title style={{padding: '20px', margin: '0', textAlign: 'center'}}>Contact us today! </Title>
+      <Text><b>Email:</b> LoneStarGeneralRemodeling@gmail.com</Text>
+      <Text><b>Phone:</b> (346)-425-9986</Text>
+      <Text><b>Instagram:</b> @LoneStarGeneralRemodeling</Text>
+      <Text><b>TikTok:</b> @LoneStarGR</Text>
+    </div>
   );
   
 }

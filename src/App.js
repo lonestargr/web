@@ -56,7 +56,7 @@ function App() {
             <Route path="/web/contact/" element={<Contact/>}></Route>
           </Routes> 
         </Content>
-        <Footer style={{ textAlign: 'center', backgroundColor: 'white'}}>Ant Design ©2018 Created by Ant UED</Footer>
+        <Footer style={{ textAlign: 'center', backgroundColor: 'white'}}>Lone Star General Remodeling</Footer>
       </Layout>
     </Router>
   );
