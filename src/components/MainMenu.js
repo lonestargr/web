@@ -5,7 +5,7 @@ import '../index.css';
 import { Breadcrumb, Layout, Menu, theme, Image, Space, Carousel, Typography } from 'antd';
 import loneStarLogo from '../assets/images/lonestarlogo.jpeg'
 import { createFromIconfontCN } from '@ant-design/icons';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, useLocation } from "react-router-dom";
 
 
 const { Title } = Typography;
@@ -29,6 +29,9 @@ const contentStyle = {
 
 function MainMenu() {
 
+  let location = useLocation();
+  console.log('this is location' + location.pathname)
+
   let menu = ['Home', 'Portfolio', 'About', 'Contact']
 
   const {
@@ -44,22 +47,22 @@ function MainMenu() {
         <Menu
             theme="light"
             mode="horizontal"
-            defaultSelectedKeys={['1']}
+            defaultSelectedKeys={[location.pathname]}
             selectable="true"
             style={{backgroundColor: 'white', border: 'none', fontFamily: "Arial Rounded MT Bold", borderRadius: '10px', width: '100%', display: 'flex', justifyContent: 'center'}}>
-            <Menu.Item key="1" label="Home">
+            <Menu.Item key="/web/" label="Home">
                 <div>Home</div>
                 <Link to="/web/" />
             </Menu.Item>
-            <Menu.Item key="2" label='Portfolio'>
+            <Menu.Item key="/web/portfolio/" label='Portfolio'>
                 <div>Portfolio</div>
                 <Link to="/web/portfolio/" />
             </Menu.Item>
-            <Menu.Item key="3" label="About">
+            <Menu.Item key="/web/about/" label="About">
                 <div>About</div>
                 <Link to="/web/about/"/>
             </Menu.Item>
-            <Menu.Item key="4" label="Contact">
+            <Menu.Item key="/web/contact/" label="Contact">
                 <div>Contact</div>
                 <Link to="/web/contact/" />
             </Menu.Item>
