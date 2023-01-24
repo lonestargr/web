@@ -30,8 +30,6 @@ const contentStyle = {
 function MainMenu() {
 
   let location = useLocation();
-  console.log('this is location' + location.pathname)
-
   let menu = ['Home', 'Portfolio', 'About', 'Contact']
 
   const {

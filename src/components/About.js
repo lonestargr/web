@@ -29,19 +29,19 @@ const contentStyle = {
 
 function About() {
   
-  useEffect(() => {
+//   useEffect(() => {
   
-    axios.get('https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/gJErbA7eNN67WgMl490xXg/reviews', {
-    headers: {
-      Authorization: `Bearer Us4GyU9Qrf4ndXPS5IRhl60SeaPWYOfekZl2wZLoY9KZIUNSbHmh5sZ6fHDcL2_yTCIiJkfxW5rGGEk9zHaZph5JY1QmQkHeVZP8TUoOjSKieNGNjapvjAib2neuY3Yx`
-  }})
-  .then((res) => {
-  console.log(res)
-  })
-  .catch((err) => {
-  console.log ('error' + err)
-  })
-})
+//     axios.get('https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/gJErbA7eNN67WgMl490xXg/reviews', {
+//     headers: {
+//       Authorization: `Bearer Us4GyU9Qrf4ndXPS5IRhl60SeaPWYOfekZl2wZLoY9KZIUNSbHmh5sZ6fHDcL2_yTCIiJkfxW5rGGEk9zHaZph5JY1QmQkHeVZP8TUoOjSKieNGNjapvjAib2neuY3Yx`
+//   }})
+//   .then((res) => {
+//   console.log(res)
+//   })
+//   .catch((err) => {
+//   console.log ('error' + err)
+//   })
+// })
 
   let menu = ['Home', 'Portfolio', 'About', 'Contact']
 
