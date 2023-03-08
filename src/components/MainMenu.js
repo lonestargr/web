@@ -48,21 +48,21 @@ function MainMenu() {
             defaultSelectedKeys={[location.pathname]}
             selectable="true"
             style={{backgroundColor: 'white', border: 'none', fontFamily: "Arial Rounded MT Bold", borderRadius: '10px', width: '100%', display: 'flex', justifyContent: 'center'}}>
-            <Menu.Item key="/web/" label="Home">
+            <Menu.Item key="/" label="Home">
                 <div>Home</div>
-                <Link to="/web/" />
+                <Link to="/" />
             </Menu.Item>
-            <Menu.Item key="/web/portfolio/" label='Portfolio'>
+            <Menu.Item key="/portfolio/" label='Portfolio'>
                 <div>Portfolio</div>
-                <Link to="/web/portfolio/" />
+                <Link to="/portfolio/" />
             </Menu.Item>
-            <Menu.Item key="/web/about/" label="About">
+            <Menu.Item key="/about/" label="About">
                 <div>About</div>
-                <Link to="/web/about/"/>
+                <Link to="/about/"/>
             </Menu.Item>
-            <Menu.Item key="/web/contact/" label="Contact">
+            <Menu.Item key="/contact/" label="Contact">
                 <div>Contact</div>
-                <Link to="/web/contact/" />
+                <Link to="/contact/" />
             </Menu.Item>
         </Menu>
     </div>

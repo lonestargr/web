@@ -2,7 +2,7 @@
 import '../App.css';
 import React from 'react';
 import '../index.css';
-import { Breadcrumb, Layout, Menu, theme, Image, Space, Carousel, Typography } from 'antd';
+import { Breadcrumb, Layout, Menu, theme, Image, Space, Carousel, Typography, Card } from 'antd';
 import loneStarLogo from '../assets/images/lonestarlogo.jpeg'
 import yelp1 from '../assets/images/yelp1.png'
 import yelp2 from '../assets/images/yelp2.png'
@@ -65,6 +65,8 @@ function Home() {
     console.log(currentSlide);
   };
 
+  let result;
+
   return (
     <div>
         <div style={{ position: 'sticky', padding: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', width: '100%'}}>
@@ -79,38 +81,38 @@ function Home() {
           </div>
             <div style={{padding: '20px', margin: '0'}}>
                 <Carousel style={{}} autoplay effect="fade" dotPosition='top'>
-                <div class="carouselCntr">
-                <Image
-                    src={ yelp1 }
-                />
-                </div>
-                <div class="carouselCntr">
+                  <div class="carouselCntr">
+                    <Image
+                        src={ yelp1 }
+                    />
+                  </div>
+                  <div class="carouselCntr">
                     <Image
                     height={350}
                     width={400}
                     src={ yelp6 }
                     />
-                </div>
-                <div class="carouselCntr">
+                  </div>
+                  <div class="carouselCntr">
                     <Image
                     src={ yelp2 }
                     />
-                </div>
-                <div class="carouselCntr">
+                  </div>
+                  <div class="carouselCntr">
                     <Image
                     src={ yelp3 }
                     />
-                </div>
-                <div class="carouselCntr">
+                  </div>
+                  <div class="carouselCntr">
                     <Image
                     src={ yelp4 }
                     />
-                </div>
-                <div class="carouselCntr">
+                  </div>
+                  <div class="carouselCntr">
                     <Image
                     src={ yelp5 }
                     />
-                </div>
+                  </div>
                 </Carousel>
             </div>
         </div>
