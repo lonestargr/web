@@ -6,7 +6,7 @@ import { Breadcrumb, Layout, Menu, theme, Image, Space, Carousel, Typography } f
 import loneStarLogo from '../assets/images/lonestarlogo.jpeg'
 import { createFromIconfontCN } from '@ant-design/icons';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-
+import { Helmet } from 'react-helmet-async';
 const { Text, Title } = Typography;
  
 const { Header, Content, Footer } = Layout;
@@ -39,6 +39,14 @@ function Contact() {
   };
 
   return (
+    <>
+    <Helmet>
+      <title>Contact Us - Lone Star General Remodeling</title>
+      <meta name="description" content="Welcome to our Contact page where you find our
+      email and phone number so you can reach us to get your general remodeling project started in
+      the Houston Texas area. Houston Texas General Remodeling."/> 
+      <link rel="canonical" href="/contact/"/>
+    </Helmet>
     <div style={{ position: 'sticky', padding: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', width: '100%'}}>
       <Title style={{padding: '20px', margin: '0', textAlign: 'center'}}>Contact us today! </Title>
       <Text><b>Email:</b> LoneStarGeneralRemodeling@gmail.com</Text>
@@ -46,6 +54,7 @@ function Contact() {
       <Text><b>Instagram:</b> @LoneStarGeneralRemodeling</Text>
       <Text><b>TikTok:</b> @LoneStarGR</Text>
     </div>
+    </>
   );
   
 }

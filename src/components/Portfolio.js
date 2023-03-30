@@ -16,6 +16,7 @@ dorothyFirst6, dorothyFirst7, dorothyFirst8, dorothyFirst9, dorothyFirst10, doro
 mansion1, mansion2, mansion3, mansion4, mansion5, mansion6, mansion7, mansion8, mansion9, mansion10, mansion11, mansion12,
 mansion13, mansion14, mansion15, mansion16, mansion17, mansion18, mansion19, mansion20, mansion21, mansion22, mansion23,
 mansion24, mansion25, mansion26, memorial1, memorial2, memorial3, memorial4, memorial5, memorial6, dorothyFirst5 } from '../assets/images';
+import { Helmet } from 'react-helmet-async';
 
 const { Title } = Typography;
  
@@ -49,6 +50,14 @@ function Portfolio() {
   };
 
   return (
+    <>
+    <Helmet>
+      <title>Portfolio - Lone Star General Remodeling</title>
+      <meta name="description" content="Welcome to our portfolio where you can find LVT laminate wood installations, 
+      Granite Countertop installations, cabinet installations, carpet installations, and full home remodels with 
+      kitchen and bath Kitchen and Bath remodels. Houston Texas General Remodeling."/> 
+      <link rel="canonical" href="/portfolio/"/>
+    </Helmet>
     <div style={{display: 'flex', justifyContent: 'center', gap: '20px', flexDirection: 'column'}}>
         <Title style={{margin: '0', height: '50px', alignSelf: 'center'}}>LVT/Hardwood</Title>
         <Carousel style={{}} autoplay effect="fade" dotPosition='top'>
@@ -595,6 +604,7 @@ function Portfolio() {
                 </div>
             </Carousel>
     </div>
+    </>
   );
   
 }

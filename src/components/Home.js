@@ -13,6 +13,7 @@ import yelp6 from '../assets/images/yelp6.jpg'
 import { createFromIconfontCN } from '@ant-design/icons';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { logo } from '../assets/images'
+import { Helmet } from 'react-helmet-async';
 
 
 const { Title } = Typography;
@@ -68,6 +69,13 @@ function Home() {
   let result;
 
   return (
+    <>
+    <Helmet>
+      <title>Home - Lone Star General Remodeling</title>
+      <meta name="description" content="Welcome to our homepage were you can find General Remodeling reviews and our
+      portfolio of LVT laminate, granite, carpet installations and much more in the Houston area! Houston Texas General Remodeling."/> 
+      <link rel="canonical" href="/"/>
+    </Helmet>
     <div>
         <div style={{ position: 'sticky', padding: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', width: '100%'}}>
             <Image
@@ -118,6 +126,7 @@ function Home() {
         </div>
         {/* <IconFont type="icon-facebook" /> */}
     </div>
+    </>
   );
   
 }
