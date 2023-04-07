@@ -42,7 +42,7 @@ function Contact() {
     <>
     <Helmet>
       <title>Contact Us - Lone Star General Remodeling</title>
-      <meta name="description" content="Welcome to our Contact page where you find our
+      <meta name="description" content="Welcome to our Contact page where you can find our
       email and phone number so you can reach us to get your general remodeling project started in
       the Houston Texas area. Houston Texas General Remodeling."/> 
       <link rel="canonical" href="/contact/"/>

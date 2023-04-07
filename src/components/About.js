@@ -57,7 +57,7 @@ function About() {
     <>
     <Helmet>
       <title>About Us - Lone Star General Remodeling</title>
-      <meta name="description" content="Welcome to our About Us page were you find read about our 
+      <meta name="description" content="Welcome to our About Us page where you can read about our 
       history and process dealing with General Remodeling in the Houston Texas area."/> 
       <link rel="canonical" href="/about/"/>
     </Helmet>
