@@ -1,8 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.5c9f42ca.css",
-    "main.js": "/static/js/main.75786710.js",
+    "main.css": "/static/css/main.04ab0aa1.css",
+    "main.js": "/static/js/main.0b5f294a.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/sam_granite1.jpeg": "/static/media/sam_granite1.c085364211af14e937d4.jpeg",
+    "static/media/sam_granite5.jpeg": "/static/media/sam_granite5.7e596a72f275911b1dcd.jpeg",
+    "static/media/avery_lvt6.jpg": "/static/media/avery_lvt6.b92b1a927a6167981fba.jpg",
+    "static/media/sam_granite2.jpeg": "/static/media/sam_granite2.179217269c92381fd6ea.jpeg",
+    "static/media/sam_granite4.jpeg": "/static/media/sam_granite4.ab338b4a18de3a1e81f4.jpeg",
+    "static/media/avery_lvt4.jpg": "/static/media/avery_lvt4.975568d1a8caa1cd5e78.jpg",
+    "static/media/woodtile5.jpg": "/static/media/woodtile5.c65fe8e19fe1e3bc278e.jpg",
+    "static/media/avery_lvt5.jpg": "/static/media/avery_lvt5.942185bfbfc7c94c8ab9.jpg",
+    "static/media/sam_granite3.jpeg": "/static/media/sam_granite3.3bc55d5cd5ce88562f07.jpeg",
+    "static/media/woodtile2.jpg": "/static/media/woodtile2.cfebbf135c626fb2426d.jpg",
+    "static/media/woodtile4.jpg": "/static/media/woodtile4.0534abb82077ae14ceb1.jpg",
+    "static/media/avery_lvt1.jpg": "/static/media/avery_lvt1.91d7c0bc55ce8fe7912c.jpg",
+    "static/media/woodtile3.jpg": "/static/media/woodtile3.e4636dec0fc5b75aceb6.jpg",
+    "static/media/avery_lvt7.jpg": "/static/media/avery_lvt7.a6c4211619e08c20324b.jpg",
+    "static/media/avery_lvt3.jpg": "/static/media/avery_lvt3.e5254fb1824ff60aa248.jpg",
+    "static/media/woodtile1.jpg": "/static/media/woodtile1.af0632bd917b0eebae40.jpg",
+    "static/media/avery_lvt8.jpg": "/static/media/avery_lvt8.56602628e20f6e04d666.jpg",
+    "static/media/avery_lvt2.jpg": "/static/media/avery_lvt2.cab78869db359d712793.jpg",
     "static/media/yelp4.png": "/static/media/yelp4.88c226297f3470e28009.png",
     "static/media/dorothyFirst11.jpeg": "/static/media/dorothyFirst11.6aea9df6d383dbb40fa3.jpeg",
     "static/media/dorothyFirst12.jpeg": "/static/media/dorothyFirst12.a384417f7ce6c775434d.jpeg",
@@ -118,12 +136,12 @@
     "static/media/lonestarlogo.jpeg": "/static/media/lonestarlogo.346a08857fe1e3992007.jpeg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.5c9f42ca.css.map": "/static/css/main.5c9f42ca.css.map",
-    "main.75786710.js.map": "/static/js/main.75786710.js.map",
+    "main.04ab0aa1.css.map": "/static/css/main.04ab0aa1.css.map",
+    "main.0b5f294a.js.map": "/static/js/main.0b5f294a.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c9f42ca.css",
-    "static/js/main.75786710.js"
+    "static/css/main.04ab0aa1.css",
+    "static/js/main.0b5f294a.js"
   ]
 }
