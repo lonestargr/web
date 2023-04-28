@@ -80,6 +80,9 @@ function Home() {
         <div style={{ position: 'sticky', padding: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', width: '100%'}}>
             <Image
               src={ logo }
+              alt="Lone Star General Remodeling Houston General Remodeling"
+              rootClassName='logo'
+              preview={false}
             />
           </div>
           <div>
@@ -92,6 +95,7 @@ function Home() {
                   <div class="carouselCntr">
                     <Image
                         src={ yelp1 }
+                        alt="Lone Star General Remodeling Houston General Remodeling yelp"
                     />
                   </div>
                   <div class="carouselCntr">
@@ -99,26 +103,31 @@ function Home() {
                     height={350}
                     width={400}
                     src={ yelp6 }
+                    alt="Lone Star General Remodeling Houston General Remodeling yelp"
                     />
                   </div>
                   <div class="carouselCntr">
                     <Image
                     src={ yelp2 }
+                    alt="Lone Star General Remodeling Houston General Remodeling yelp"
                     />
                   </div>
                   <div class="carouselCntr">
                     <Image
                     src={ yelp3 }
+                    alt="Lone Star General Remodeling Houston General Remodeling yelp"
                     />
                   </div>
                   <div class="carouselCntr">
                     <Image
                     src={ yelp4 }
+                    alt="Lone Star General Remodeling Houston General Remodeling yelp"
                     />
                   </div>
                   <div class="carouselCntr">
                     <Image
                     src={ yelp5 }
+                    alt="Lone Star General Remodeling Houston General Remodeling yelp"
                     />
                   </div>
                 </Carousel>
