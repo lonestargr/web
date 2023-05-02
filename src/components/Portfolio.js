@@ -2,10 +2,7 @@
 import '../App.css';
 import React from 'react';
 import '../index.css';
-import { Breadcrumb, Layout, Menu, theme, Image, Space, Carousel, Typography } from 'antd';
-import loneStarLogo from '../assets/images/lonestarlogo.jpeg'
-import { createFromIconfontCN } from '@ant-design/icons';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Image, Carousel, Typography } from 'antd';
 import { mohit1, mohit2, mohit3, mohit4, mohit5, mohit6, mohit7, mohit8, mohit9, 
     mohit10, mohit11, mohit12, mohit13, mohit14, mohit15, mohit16, mohit17, mohit18, mohit19, taiwo1, 
     taiwo2, taiwo3, taiwo4, taiwo5, taiwo6, taiwo7, taiwo8, granite1, granite2, granite3, granite4, granite5, 
@@ -21,36 +18,8 @@ sam_granite5, woodtile1, woodtile2, woodtile3, woodtile4, woodtile5 } from '../a
 import { Helmet } from 'react-helmet-async';
 
 const { Title } = Typography;
- 
-const { Header, Content, Footer } = Layout;
-
-const IconFont = createFromIconfontCN({
-  scriptUrl: '//at.alicdn.com/t/font_8d5l8fzk5b87iudi.js',
-});
-
-const contentStyle = {
-  margin: 0,
-  height: '160px',
-  width: '160px',
-  color: '#fff',
-  lineHeight: '160px',
-  textAlign: 'center',
-  background: '#364d79',
-};
-
 
 function Portfolio() {
-
-  let menu = ['Home', 'Portfolio', 'About', 'Contact']
-
-  const {
-    token: { colorBgContainer },
-  } = theme.useToken();
-
-  const onChange = (currentSlide) => {
-    console.log(currentSlide);
-  };
-
   return (
     <>
     <Helmet>
@@ -67,78 +36,169 @@ function Portfolio() {
               <Image
                 src={ avery_lvt1 }
                 alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                placeholder={
+                  <Image
+                    preview={false}
+                    src={ avery_lvt1 }
+                    alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                  />
+                }
               />
               </div>
               <div class="carouselCntr">
               <Image
                 src={ avery_lvt2 }
                 alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                placeholder={
+                  <Image
+                    preview={false}
+                    src={ avery_lvt2 }
+                    alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                  />
+                }
               />
               </div>
               <div class="carouselCntr">
               <Image
                 src={ avery_lvt3 }
                 alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                placeholder={
+                  <Image
+                    preview={false}
+                    src={ avery_lvt3 }
+                    alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                  />
+                }
               />
               </div>
               <div class="carouselCntr">
               <Image
                 src={ avery_lvt4 }
                 alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                placeholder={
+                  <Image
+                    preview={false}
+                    src={ avery_lvt4 }
+                    alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                  />
+                }
               />
               </div>
               <div class="carouselCntr">
               <Image
                 src={ avery_lvt5 }
                 alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                placeholder={
+                  <Image
+                    preview={false}
+                    src={ avery_lvt5 }
+                    alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                  />
+                }
               />
               </div>
               <div class="carouselCntr">
               <Image
                 src={ avery_lvt6 }
                 alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                placeholder={
+                  <Image
+                    preview={false}
+                    src={ avery_lvt6 }
+                    alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                  />
+                }
               />
               </div>
               <div class="carouselCntr">
               <Image
                 src={ avery_lvt7 }
                 alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                placeholder={
+                  <Image
+                    preview={false}
+                    src={ avery_lvt7 }
+                    alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                  />
+                }
               />
               </div>
               <div class="carouselCntr">
               <Image
                 src={ avery_lvt8 }
                 alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                placeholder={
+                  <Image
+                    preview={false}
+                    src={ avery_lvt8 }
+                    alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                  />
+                }
               />
               </div>
               <div class="carouselCntr">
               <Image
                 src={ woodtile1 }
                 alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                placeholder={
+                  <Image
+                    preview={false}
+                    src={ woodtile1 }
+                    alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                  />
+                }
               />
               </div>
               <div class="carouselCntr">
               <Image
                 src={ woodtile2 }
                 alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                placeholder={
+                  <Image
+                    preview={false}
+                    src={ woodtile2 }
+                    alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                  />
+                }
               />
               </div>
               <div class="carouselCntr">
               <Image
                 src={ woodtile3 }
                 alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                placeholder={
+                  <Image
+                    preview={false}
+                    src={ woodtile3 }
+                    alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                  />
+                }
               />
               </div>
               <div class="carouselCntr">
               <Image
                 src={ woodtile4 }
                 alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                placeholder={
+                  <Image
+                    preview={false}
+                    src={ woodtile4 }
+                    alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                  />
+                }
               />
               </div>
               <div class="carouselCntr">
               <Image
                 src={ woodtile5 }
                 alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                placeholder={
+                  <Image
+                    preview={false}
+                    src={ woodtile5 }
+                    alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                  />
+                }
               />
               </div>
               <div class="carouselCntr">
@@ -310,30 +370,65 @@ function Portfolio() {
                 <Image
                     src={ sam_granite1 }
                     alt="Lone Star General Remodeling Houston General Remodeling granite countertop cabinets Houston"
+                    placeholder={
+                      <Image
+                        preview={false}
+                        src={ sam_granite1 }
+                        alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                      />
+                    }
                 />
                 </div>
                 <div class="carouselCntr">
                 <Image
                     src={ sam_granite2 }
                     alt="Lone Star General Remodeling Houston General Remodeling granite countertop cabinets Houston"
+                    placeholder={
+                      <Image
+                        preview={false}
+                        src={ sam_granite2 }
+                        alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                      />
+                    }
                 />
                 </div>
                 <div class="carouselCntr">
                 <Image
                     src={ sam_granite3 }
                     alt="Lone Star General Remodeling Houston General Remodeling granite countertop cabinets Houston"
+                    placeholder={
+                      <Image
+                        preview={false}
+                        src={ sam_granite3 }
+                        alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                      />
+                    }
                 />
                 </div>
                 <div class="carouselCntr">
                 <Image
                     src={ sam_granite4 }
                     alt="Lone Star General Remodeling Houston General Remodeling granite countertop cabinets Houston"
+                    placeholder={
+                      <Image
+                        preview={false}
+                        src={ sam_granite4 }
+                        alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                      />
+                    }
                 />
                 </div>
                 <div class="carouselCntr">
                 <Image
                     src={ sam_granite5 }
                     alt="Lone Star General Remodeling Houston General Remodeling granite countertop cabinets Houston"
+                    placeholder={
+                      <Image
+                        preview={false}
+                        src={ sam_granite5 }
+                        alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                      />
+                    }
                 />
                 </div>
                 <div class="carouselCntr">

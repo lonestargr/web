@@ -1,58 +1,14 @@
 // import logo from './logo.svg';
 import '../App.css';
-import {React, useEffect} from 'react';
+import {React} from 'react';
 import '../index.css';
-import { Breadcrumb, Layout, Menu, theme, Image, Space, Carousel, Typography } from 'antd';
-import { createFromIconfontCN } from '@ant-design/icons';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { logo } from '../assets/images'
-import axios from 'axios';
+import { Image, Typography } from 'antd';
+import { logo } from '../assets/images';
 import { Helmet } from 'react-helmet-async';
 
 const { Title } = Typography;
  
-const { Header, Content, Footer } = Layout;
-
-const IconFont = createFromIconfontCN({
-  scriptUrl: '//at.alicdn.com/t/font_8d5l8fzk5b87iudi.js',
-});
-
-const contentStyle = {
-  margin: 0,
-  height: '160px',
-  width: '160px',
-  color: '#fff',
-  lineHeight: '160px',
-  textAlign: 'center',
-  background: '#364d79',
-};
-
 function About() {
-  
-//   useEffect(() => {
-  
-//     axios.get('https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/gJErbA7eNN67WgMl490xXg/reviews', {
-//     headers: {
-//       Authorization: `Bearer Us4GyU9Qrf4ndXPS5IRhl60SeaPWYOfekZl2wZLoY9KZIUNSbHmh5sZ6fHDcL2_yTCIiJkfxW5rGGEk9zHaZph5JY1QmQkHeVZP8TUoOjSKieNGNjapvjAib2neuY3Yx`
-//   }})
-//   .then((res) => {
-//   console.log(res)
-//   })
-//   .catch((err) => {
-//   console.log ('error' + err)
-//   })
-// })
-
-  let menu = ['Home', 'Portfolio', 'About', 'Contact']
-
-  const {
-    token: { colorBgContainer },
-  } = theme.useToken();
-
-  const onChange = (currentSlide) => {
-    console.log(currentSlide);
-  };
-
   return (
     <>
     <Helmet>
