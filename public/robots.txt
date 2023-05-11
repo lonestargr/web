@@ -1,3 +1,8 @@
 # https://www.robotstxt.org/robotstxt.html
-User-agent: *
-Disallow:
+User-agent: * 
+Allow: /
+Allow: /portfolio/
+Allow: /about/
+Allow: /contact/
+
+Sitemap: https://www.lsgenrem.com/sitemap.txt
