@@ -36,8 +36,16 @@ function Home() {
           </div>
           <div>
             <div class="headingCntr">
-              <Title style={{padding: '20px', margin: '0', textAlign: 'center'}}>Reviews left by our satisfied customers!</Title>
-              <Title style={{padding: '20px', margin: '0', textAlign: 'center'}} level={2}>Be sure to checkout our Yelp, Facebook, and Instagram for more!</Title>
+              <h1 style={{marginBottom: '0'}}>Lone Star General Remodeling</h1>
+              <h3 style={{textAlign: 'center'}}>Your one stop shop for all remodeling and general contracting services in the Houston area! </h3>
+              <h2 style={{textAlign: 'center'}}>Our Process and Mission Statment</h2>
+              <p class="paragraph">We strive to satisfy our clients with quality and affordable work in the general remodeling industry. We service the greater Houston area and schedule 
+                free estimates at our client's convenience where we take measurements and display samples to give our clients a quote within 1-2 days. We offer LVT/hardwood, granite countertops, painting, you know name it!
+                A speedy and well done service is what we aim for so our clients can enjoy their new upgrade to their property as soon as possible. We can take care of every aspect of projects from material to labor and disposal of trash. 
+                We also offer financing with Hearth and Synchrony for interested clients. Contact us today to get started with that general remodeling project you've been wanting!
+              </p>
+              <h2 style={{padding: '20px', margin: '0', textAlign: 'center', marginBottom: '0'}}>Reviews left by our satisfied customers!</h2>
+              <h3 style={{padding: '20px', margin: '0', textAlign: 'center'}} level={2}>Be sure to checkout our Yelp, Facebook, and Instagram for more!</h3>
           </div>
             <div style={{padding: '20px', margin: '0'}}>
                 <Carousel style={{}} autoplay effect="fade" dotPosition='top'>

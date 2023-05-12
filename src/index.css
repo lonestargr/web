@@ -29,6 +29,30 @@ code {
   }
 }
 
+@media (max-width: 500px){
+  .paragraph {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 850px){
+  .paragraph {
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+}
+
+@media (min-width: 850px) {
+  .paragraph {
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+}
+
 .menu{
   background-color: white;
   position: sticky;
