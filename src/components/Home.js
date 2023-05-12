@@ -2,7 +2,7 @@
 import '../App.css';
 import React from 'react';
 import '../index.css';
-import { Image, Carousel, Typography } from 'antd';
+import { Image, Carousel } from 'antd';
 import yelp1 from '../assets/images/yelp1.png'
 import yelp2 from '../assets/images/yelp2.png'
 import yelp3 from '../assets/images/yelp3.png'
@@ -11,9 +11,6 @@ import yelp5 from '../assets/images/yelp5.png'
 import yelp6 from '../assets/images/yelp6.jpg'
 import { logo } from '../assets/images'
 import { Helmet } from 'react-helmet-async';
-
-
-const { Title } = Typography;
 
 
 function Home() {

@@ -25,7 +25,7 @@ function About() {
               rootClassName='logo'
               preview={false}
             />
-            <Title style={{padding: '40px 20px', margin: '0', textAlign: 'center'}} level={5}>We are Lone Star General Remodeling. The family business has been serving the Houston area for well over a decade now, using our services to give customers great quality at an affordable rate. We offer general remodeling services that include <u>LVT installation, Kitchen & Bath remodels, invenstor flips and much more!</u> Call us today and set up a <em>free estimate!</em></Title>
+            <Title class="paragraph" level={10}>We are Lone Star General Remodeling. The family business has been serving the Houston area for well over a decade now, using our services to give customers great quality at an affordable rate. We offer general remodeling services that include <u>LVT installation, Kitchen & Bath remodels, invenstor flips and much more!</u> Call us today and set up a <em>free estimate!</em></Title>
       </div>
     </div>
     </>
