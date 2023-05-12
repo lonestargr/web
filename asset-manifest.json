@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.04ab0aa1.css",
-    "main.js": "/static/js/main.5c30f648.js",
+    "main.css": "/static/css/main.813ff627.css",
+    "main.js": "/static/js/main.6fadb8fc.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/sam_granite2.jpeg": "/static/media/sam_granite2.c82131329a7bb1ba5ddb.jpeg",
     "static/media/sam_granite1.jpeg": "/static/media/sam_granite1.eeef92b5c86ae12cb464.jpeg",
@@ -136,12 +136,12 @@
     "static/media/lonestarlogo.jpeg": "/static/media/lonestarlogo.346a08857fe1e3992007.jpeg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.04ab0aa1.css.map": "/static/css/main.04ab0aa1.css.map",
-    "main.5c30f648.js.map": "/static/js/main.5c30f648.js.map",
+    "main.813ff627.css.map": "/static/css/main.813ff627.css.map",
+    "main.6fadb8fc.js.map": "/static/js/main.6fadb8fc.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04ab0aa1.css",
-    "static/js/main.5c30f648.js"
+    "static/css/main.813ff627.css",
+    "static/js/main.6fadb8fc.js"
   ]
 }
