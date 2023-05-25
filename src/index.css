@@ -127,3 +127,25 @@ code {
 .logo {
   box-shadow: 4.2px 8.3px 8.3px hsl(0deg 0% 0% / 0.37);
 }
+
+.contact {
+  position: sticky;
+  padding: 40px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media (max-width: 388px) {
+  .contact {
+    position: sticky;
+    padding: 30px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+}
