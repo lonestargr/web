@@ -14,8 +14,9 @@ mansion1, mansion2, mansion3, mansion4, mansion5, mansion6, mansion7, mansion8, 
 mansion13, mansion14, mansion15, mansion16, mansion17, mansion18, mansion19, mansion20, mansion21, mansion22, mansion23,
 mansion24, mansion25, mansion26, memorial1, memorial2, memorial3, memorial4, memorial5, memorial6, dorothyFirst5, avery_lvt1, avery_lvt2,
 avery_lvt3, avery_lvt4, avery_lvt5, avery_lvt6, avery_lvt7, avery_lvt8, sam_granite1, sam_granite2, sam_granite3, sam_granite4, 
-sam_granite5, woodtile1, woodtile2, woodtile3, woodtile4, woodtile5 } from '../assets/images';
+sam_granite5, woodtile1, woodtile2, woodtile3, woodtile4, woodtile5, bev_granite1, bev_granite2, bev_granite3 } from '../assets/images';
 import { Helmet } from 'react-helmet-async';
+import { LeftOutlined, RightOutlined } from "@ant-design/icons";
 
 const { Title } = Typography;
 
@@ -31,7 +32,7 @@ function Portfolio() {
     </Helmet>
     <div style={{display: 'flex', justifyContent: 'center', gap: '20px', flexDirection: 'column'}}>
         <Title style={{margin: '0', height: '50px', alignSelf: 'center'}}>LVT/Hardwood</Title>
-        <Carousel style={{}} autoplay="true" effect="fade" dotPosition='top'>
+        <Carousel autoplay arrows={true} prevArrow={<LeftOutlined />} nextArrow={<RightOutlined/>} dotPosition='top'>
               <div class="carouselCntr">
               <Image
                 src={ avery_lvt1 }
@@ -314,7 +315,28 @@ function Portfolio() {
               </div>
             </Carousel>
             <Title style={{margin: '0', height: '50px', alignSelf: 'center'}}>Granite</Title>
-            <Carousel style={{}} autoplay="true" effect="fade" dotPosition='top'>
+            <Carousel autoplay arrows={true} prevArrow={<LeftOutlined />} nextArrow={<RightOutlined/>} dotPosition='top'>
+                <div class="carouselCntr">
+                <Image
+                    src={ bev_granite1 }
+                    alt="Lone Star General Remodeling Houston General Remodeling granite countertop cabinets Houston"
+                    preview={false}
+                />
+                </div>
+                <div class="carouselCntr">
+                <Image
+                    src={ bev_granite2 }
+                    alt="Lone Star General Remodeling Houston General Remodeling granite countertop cabinets Houston"
+                    preview={false}
+                />
+                </div>
+                <div class="carouselCntr">
+                <Image
+                    src={ bev_granite3 }
+                    alt="Lone Star General Remodeling Houston General Remodeling granite countertop cabinets Houston"
+                    preview={false}
+                />
+                </div>
                 <div class="carouselCntr">
                 <Image
                     src={ sam_granite1 }
@@ -407,7 +429,7 @@ function Portfolio() {
                 </div>
             </Carousel>
             <Title style={{margin: '0', height: '50px', alignSelf: 'center'}}>Carpet</Title>
-            <Carousel style={{}} autoplay="true" effect="fade" dotPosition='top'>
+            <Carousel autoplay arrows={true} prevArrow={<LeftOutlined />} nextArrow={<RightOutlined/>} dotPosition='top'>
                 <div class="carouselCntr">
                 <Image
                     src={ cypress1 }

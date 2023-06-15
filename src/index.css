@@ -110,6 +110,24 @@ code {
   transition: none !important;
 }
 
+.ant-carousel .slick-prev,
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-prev:focus {
+  font-size: inherit;
+  left: 20%;
+  z-index: 2;
+  color: #1677ff;
+}
+
+.ant-carousel .slick-next,
+.ant-carousel .slick-next:hover,
+.ant-carousel .slick-next:focus {
+  font-size: inherit;
+  right: 20%;
+  z-index: 2;
+  color: #1677ff;
+}
+
 .carouselCntr {
   width: auto;
   background-color: white;

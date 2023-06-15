@@ -11,6 +11,7 @@ import yelp5 from '../assets/images/yelp5.png'
 import yelp6 from '../assets/images/yelp6.jpg'
 import { logo } from '../assets/images'
 import { Helmet } from 'react-helmet-async';
+import { LeftOutlined, RightOutlined } from "@ant-design/icons";
 
 
 function Home() {
@@ -43,13 +44,14 @@ function Home() {
               </p>
               <h2 style={{padding: '20px', margin: '0', textAlign: 'center', marginBottom: '0'}}>Reviews left by our satisfied customers!</h2>
               <h3 style={{padding: '20px', margin: '0', textAlign: 'center'}} level={2}>Be sure to checkout our Yelp, Facebook, and Instagram for more!</h3>
-          </div>
+            </div>
             <div style={{padding: '20px', margin: '0'}}>
-                <Carousel style={{}} autoplay effect="fade" dotPosition='top'>
+                <Carousel autoplay arrows={true} prevArrow={<LeftOutlined />} nextArrow={<RightOutlined/>} dotPosition='top'>
                   <div class="carouselCntr">
                     <Image
-                        src={ yelp1 }
-                        alt="Lone Star General Remodeling Houston General Remodeling yelp"
+                      src={ yelp1 }
+                      alt="Lone Star General Remodeling Houston General Remodeling yelp"
+                      preview={false}
                     />
                   </div>
                   <div class="carouselCntr">
@@ -58,30 +60,35 @@ function Home() {
                     width={400}
                     src={ yelp6 }
                     alt="Lone Star General Remodeling Houston General Remodeling yelp"
+                    preview={false}
                     />
                   </div>
                   <div class="carouselCntr">
                     <Image
                     src={ yelp2 }
                     alt="Lone Star General Remodeling Houston General Remodeling yelp"
+                    preview={false}
                     />
                   </div>
                   <div class="carouselCntr">
                     <Image
                     src={ yelp3 }
                     alt="Lone Star General Remodeling Houston General Remodeling yelp"
+                    preview={false}
                     />
                   </div>
                   <div class="carouselCntr">
                     <Image
                     src={ yelp4 }
                     alt="Lone Star General Remodeling Houston General Remodeling yelp"
+                    preview={false}
                     />
                   </div>
                   <div class="carouselCntr">
                     <Image
                     src={ yelp5 }
                     alt="Lone Star General Remodeling Houston General Remodeling yelp"
+                    preview={false}
                     />
                   </div>
                 </Carousel>
