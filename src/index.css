@@ -128,6 +128,10 @@ code {
   color: #1677ff;
 }
 
+.ant-carousel .slick-slider .slick-track {
+  /* width: 100% !important; */
+}
+
 .carouselCntr {
   width: auto;
   background-color: white;

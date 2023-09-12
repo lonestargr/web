@@ -14,7 +14,11 @@ mansion1, mansion2, mansion3, mansion4, mansion5, mansion6, mansion7, mansion8, 
 mansion13, mansion14, mansion15, mansion16, mansion17, mansion18, mansion19, mansion20, mansion21, mansion22, mansion23,
 mansion24, mansion25, mansion26, memorial1, memorial2, memorial3, memorial4, memorial5, memorial6, dorothyFirst5, avery_lvt1, avery_lvt2,
 avery_lvt3, avery_lvt4, avery_lvt5, avery_lvt6, avery_lvt7, avery_lvt8, sam_granite1, sam_granite2, sam_granite3, sam_granite4, 
-sam_granite5, woodtile1, woodtile2, woodtile3, woodtile4, woodtile5, bev_granite1, bev_granite2, bev_granite3 } from '../assets/images';
+sam_granite5, woodtile1, woodtile2, woodtile3, woodtile4, woodtile5, bev_granite1, bev_granite2, bev_granite3,
+concrete, mr_julio1, mr_julio2, mr_julio3, mr_steven_floor1, mr_steven_floor2, mr_steven_floor3, mr_steven_granite, mr_steven_paint, mr_steven_paint2,
+ms_linda1, ms_linda10, ms_linda11, ms_linda12, ms_linda13, ms_linda14, ms_linda15, ms_linda16, ms_linda17, ms_linda18, ms_linda19,
+ms_linda2, ms_linda20, ms_linda3, ms_linda4, ms_linda5, ms_linda6, ms_linda7, ms_linda8, ms_linda9, ms_ruth1, ms_ruth2, ms_ruth3,
+ms_ruth4, ms_ruth5, ms_ruth6 } from '../assets/images';
 import { Helmet } from 'react-helmet-async';
 import { LeftOutlined, RightOutlined } from "@ant-design/icons";
 
@@ -30,9 +34,264 @@ function Portfolio() {
       kitchen and bath Kitchen and Bath remodels. Houston Texas General Remodeling."/> 
       <link rel="canonical" href="/portfolio/"/>
     </Helmet>
-    <div style={{display: 'flex', justifyContent: 'center', gap: '20px', flexDirection: 'column'}}>
+    <div style={{display: 'flex', justifyContent: 'center', gap: '20px 0px', flexDirection: 'column'}}>
+        <Title style={{margin: '0', height: '50px', alignSelf: 'center'}}>Full Remodel / Kitchen and Bath Remodel / Concrete</Title>
+          <Carousel autoplay arrows={true} prevArrow={<LeftOutlined />} nextArrow={<RightOutlined/>} dotPosition='top'>
+            <div class="carouselCntr">
+                <Image 
+                  src={ ms_linda1 }
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ ms_linda2 }
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ ms_linda3 }
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ ms_linda4 }
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ ms_linda5 }
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ ms_linda6 }
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ ms_linda7 }
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ ms_linda8 }
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ ms_linda9 }
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ ms_linda10 }
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ ms_linda11 }
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ ms_linda12 }
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ ms_linda13 }
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ ms_linda14 }
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ ms_linda15 }
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ ms_linda16 }
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ ms_linda17 }
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ ms_linda18 }
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ ms_linda19 }
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ ms_linda20 }
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ mr_julio1 }
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ mr_julio2 }
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ mr_julio3 }
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ mr_steven_floor1}
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ mr_steven_floor2}
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ mr_steven_floor3}
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ mr_steven_granite}
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ mr_steven_paint}
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ mr_steven_paint2}
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ ms_ruth1}
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ ms_ruth2}
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ ms_ruth3}
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ ms_ruth4}
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ ms_ruth5}
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ ms_ruth6}
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+            <div class="carouselCntr">
+                <Image 
+                  src={ concrete}
+                  preview={false}
+                  alt="Lone Star General Remodeling Houston General Remodeling LVT laminate hardwood Houston"
+                />
+            </div>
+          </Carousel>
         <Title style={{margin: '0', height: '50px', alignSelf: 'center'}}>LVT/Hardwood</Title>
-        <Carousel autoplay arrows={true} prevArrow={<LeftOutlined />} nextArrow={<RightOutlined/>} dotPosition='top'>
+        <Carousel autoplay arrows={true} prevArrow={<LeftOutlined />} nextArrow={<RightOutlined/>} dotPosition='top' style={{width: '100%'}}>
               <div class="carouselCntr">
               <Image
                 src={ avery_lvt1 }
@@ -315,7 +574,7 @@ function Portfolio() {
               </div>
             </Carousel>
             <Title style={{margin: '0', height: '50px', alignSelf: 'center'}}>Granite</Title>
-            <Carousel autoplay arrows={true} prevArrow={<LeftOutlined />} nextArrow={<RightOutlined/>} dotPosition='top'>
+            <Carousel autoplay arrows={true} prevArrow={<LeftOutlined />} nextArrow={<RightOutlined/>} dotPosition='top' style={{width: '100%'}}>
                 <div class="carouselCntr">
                 <Image
                     src={ bev_granite1 }
@@ -376,6 +635,7 @@ function Portfolio() {
                 <Image
                     src={ granite1 }
                     alt="Lone Star General Remodeling Houston General Remodeling granite countertop cabinets Houston"
+                    preview={false}
                 />
                 </div>
                 <div class="carouselCntr">
