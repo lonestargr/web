@@ -35,7 +35,7 @@ function Portfolio() {
       <link rel="canonical" href="/portfolio/"/>
     </Helmet>
     <div style={{display: 'flex', justifyContent: 'center', gap: '20px 0px', flexDirection: 'column'}}>
-        <Title style={{margin: '0', height: '50px', alignSelf: 'center'}}>Full Remodel / Kitchen and Bath Remodel / Concrete</Title>
+        <Title style={{margin: '0', height: '50px', alignSelf: 'center'}}>Recent Projects</Title>
           <Carousel autoplay arrows={true} prevArrow={<LeftOutlined />} nextArrow={<RightOutlined/>} dotPosition='top'>
             <div class="carouselCntr">
                 <Image 
