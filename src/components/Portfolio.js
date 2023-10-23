@@ -31,7 +31,8 @@ function Portfolio() {
       <title>Portfolio - Lone Star General Remodeling</title>
       <meta name="description" content="Welcome to our portfolio where you can find LVT laminate wood installations, 
       Granite Countertop installations, cabinet installations, carpet installations, and full home remodels with 
-      kitchen and bath Kitchen and Bath remodels. Houston Texas General Remodeling."/> 
+      kitchen and bath Kitchen and Bath remodels. Houston Texas General Remodeling Commerical Remodeling
+      Commerical Construction."/> 
       <link rel="canonical" href="/portfolio/"/>
     </Helmet>
     <div style={{display: 'flex', justifyContent: 'center', gap: '20px 0px', flexDirection: 'column'}}>

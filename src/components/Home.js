@@ -20,7 +20,8 @@ function Home() {
     <Helmet>
       <title>Home - Lone Star General Remodeling</title>
       <meta name="description" content="Welcome to our homepage where you can find General Remodeling reviews and our
-      portfolio of LVT laminate, granite, carpet installations and much more in the Houston area! Houston Texas General Remodeling."/> 
+      portfolio of LVT laminate, granite, carpet installations and much more in the Houston area! Houston Texas General Remodeling Commerical Remodeling
+      Commerical Construction."/> 
       <link rel="canonical" href="/"/>
     </Helmet>
     <div>
