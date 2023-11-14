@@ -301,7 +301,7 @@ function Portfolio() {
         It's made to look like wood or stone, so there are a lot of options to choose from. Unlike Vinyl sheeting, 
         Luxury Vinyl Tile comes in tile or planks that are easy to install and replace. Our installation is top notch and the material we 
         provide is the best quality at the market price. The process involving LVT installation is first we would go out give a free estimate to 
-        show the client samples of varyting colors and styles of LVT and we would also take measurements of the areas that the client would like to get 
+        show the client samples of varying colors and styles of LVT and we would also take measurements of the areas that the client would like to get 
         the LVT installed. We would then take that information and generate a quote for the client typically within 1-2 business days. After the client accepts the quote 
         we start organizing and getting ready for install. An average installation of 800-1500 sq ft would typically take somewhere between 2-3 business days. We work with vendors such as ProSource, Floor & Decor amongst others in the Greater Houston Area to 
         deliver the best material and as close as possible to exactly what our clients are looking for. Whether it be a specific color such or material we will 
