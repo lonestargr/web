@@ -53,6 +53,12 @@ code {
   }
 }
 
+@media (min-width: 150px) and (max-width: 455px){
+  .ant-menu {
+    font-size: 11px !important;
+  }
+}
+
 .menu{
   background-color: white;
   position: sticky;
@@ -71,6 +77,7 @@ code {
   display: flex; 
   justify-content: center;
 }
+
 @media (max-width: 700px) {
   .newClass {
     background-color: yellow;

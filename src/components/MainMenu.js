@@ -7,7 +7,6 @@ import loneStarLogo from '../assets/images/lonestarlogo.jpeg'
 import { createFromIconfontCN } from '@ant-design/icons';
 import { BrowserRouter as Router, Route, Link, useLocation } from "react-router-dom";
 
-
 const { Title } = Typography;
  
 const { Header, Content, Footer } = Layout;
