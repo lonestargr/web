@@ -10,7 +10,13 @@ import MainMenu from "./components/MainMenu"
 import Home from "./components/Home"
 import Portfolio from './components/Portfolio';
 import About from './components/About';
-import Contact from './components/Contact'
+import Contact from './components/Contact';
+import LVT from './components/LVT';
+import Kitchen from './components/Kitchen';
+import Bathroom from './components/Bathroom';
+import Commercial from './components/Commercial';
+import House from './components/House';
+import GC from './components/GC';
 
 const { Title } = Typography;
  
@@ -54,6 +60,12 @@ function App() {
             <Route path="/portfolio/" element={<Portfolio/>}></Route>
             <Route path="/about/" element={<About/>}></Route>
             <Route path="/contact/" element={<Contact/>}></Route>
+            <Route path="/lvt-flooring-installation/" element={<LVT/>}></Route>
+            <Route path="/kitchen-remodeling/" element={<Kitchen/>}></Route>
+            <Route path="/bathroom-remodeling/" element={<Bathroom/>}></Route>
+            <Route path="/commercial-remodeling/" element={<Commercial/>}></Route>
+            <Route path="/house-renovations/" element={<House/>}></Route>
+            <Route path="/general-contractor-houston/" element={<GC/>}></Route>
           </Routes> 
         </Content>
         <Footer style={{ textAlign: 'center', backgroundColor: 'white'}}>Lone Star General Remodeling</Footer>

@@ -2,7 +2,7 @@
 import '../App.css';
 import React from 'react';
 import '../index.css';
-import { Breadcrumb, Layout, Menu, theme, Image, Space, Carousel, Typography } from 'antd';
+import { Breadcrumb, Layout, Menu, theme, Image, Space, Carousel, Typography, Dropdown } from 'antd';
 import loneStarLogo from '../assets/images/lonestarlogo.jpeg'
 import { createFromIconfontCN } from '@ant-design/icons';
 import { BrowserRouter as Router, Route, Link, useLocation } from "react-router-dom";
@@ -25,6 +25,63 @@ const contentStyle = {
   textAlign: 'center',
   background: '#364d79',
 };
+
+const items = [
+  {
+    key: '/lvt-flooring-installation/',
+    label: (
+      <Menu.Item key="/lvt-flooring-installation/" label="LVT">
+        <div>LVT</div>
+        <Link to="/lvt-flooring-installation/" />
+      </Menu.Item>
+    ),
+  },
+  {
+    key: '/kitchen-remodeling/',
+    label: (
+      <Menu.Item key="/kitchen-remodeling/" label="Kitchen-Remodeling">
+        <div>Kitchen Remodeling</div>
+        <Link to="/kitchen-remodeling/" />
+      </Menu.Item>
+    ),
+  },
+  {
+    key: '/bathroom-remodeling/',
+    label: (
+      <Menu.Item key="/bathroom-remodeling/" label="Bathroom-Remodeling">
+        <div>Bathroom Remodeling</div>
+        <Link to="/bathroom-remodeling/" />
+      </Menu.Item>
+    ),
+  },
+  {
+    key: '/commercial-remodeling/',
+    label: (
+      <Menu.Item key="/commercial-remodeling/" label="Commercial-Remodeling">
+        <div>Commercial Remodeling</div>
+        <Link to="/commercial-remodeling/" />
+      </Menu.Item>
+    ),
+  },
+  {
+    key: '/house-renovations/',
+    label: (
+      <Menu.Item key="/house-renovations/" label="House-Renovations">
+        <div>House Renovations</div>
+        <Link to="/house-renovations/" />
+      </Menu.Item>
+    ),
+  },
+  {
+    key: '/general-contractor-houston/',
+    label: (
+      <Menu.Item key="/general-contractor-houston/" label="General-Contractor-Houston">
+        <div>General Contractor</div>
+        <Link to="/general-contractor-houston/" />
+      </Menu.Item>
+    ),
+  }
+];
 
 
 function MainMenu() {
@@ -56,6 +113,13 @@ function MainMenu() {
                 <div>Portfolio</div>
                 <Link to="/portfolio/" />
             </Menu.Item>
+            <Dropdown menu={{
+              items,
+            }}>
+              <Menu.Item key="/contact/" label="Contact">
+                  <div>Services</div>
+              </Menu.Item>
+            </Dropdown>
             <Menu.Item key="/about/" label="About">
                 <div>About</div>
                 <Link to="/about/"/>
