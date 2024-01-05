@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.bf4f384e.css",
+    "main.css": "/static/css/main.568c0112.css",
     "main.js": "/static/js/main.6b6ab11f.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/ms_ruth4.jpg": "/static/media/ms_ruth4.883706962eafd00abf6d.jpg",
@@ -181,12 +181,12 @@
     "static/media/lonestarlogo.jpeg": "/static/media/lonestarlogo.346a08857fe1e3992007.jpeg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.bf4f384e.css.map": "/static/css/main.bf4f384e.css.map",
+    "main.568c0112.css.map": "/static/css/main.568c0112.css.map",
     "main.6b6ab11f.js.map": "/static/js/main.6b6ab11f.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf4f384e.css",
+    "static/css/main.568c0112.css",
     "static/js/main.6b6ab11f.js"
   ]
 }
