@@ -69,12 +69,11 @@ function LVT() {
                 our commitment to excellence, rest assured of floors that captivate and endure.
               </p>
               <h3 style={{textAlign: 'center'}}>Why Choose Us for Your Flooring Needs?</h3>
-              <p class="paragraph">Expertise and Precision: Skilled professionals ensuring flawless installations.
-                Wide Range of Options: Diverse styles and designs to match your preferences.
-                Quality Craftsmanship: Emphasis on durable and visually appealing flooring solutions.
-                Client-Centric Approach: Your satisfaction is our priority at every step.
-                Local Presence: Understanding the diverse needs and styles prevalent in each area.
-              </p>
+              <p class="paragraph"><b>Expertise and Precision:</b> Skilled professionals ensuring flawless installations.</p>
+              <p class="paragraph"><b>Wide Range of Options:</b> Diverse styles and designs to match your preferences. </p>
+              <p class="paragraph"><b>Quality Craftsmanship:</b> Emphasis on durable and visually appealing flooring solutions.</p>
+              <p class="paragraph"><b>Client-Centric Approach:</b> Your satisfaction is our priority at every step. </p>
+              <p class="paragraph"><b>Local Presence:</b> Understanding the diverse needs and styles prevalent in each area.</p>
               <h3 style={{textAlign: 'center'}}>Let's Transform Your Floors Together</h3>
               <p class="paragraph">Ready to elevate your space with top-notch LVT and hardwood flooring? Contact Lone
                 Star General Remodeling today for a consultation. Our dedicated team is eager to

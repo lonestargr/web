@@ -44,7 +44,7 @@ function Home() {
                 We also offer financing with Hearth and Synchrony for interested clients. Contact us today to get started with that general remodeling project you've been wanting!
               </p>
               <h2 style={{padding: '20px', margin: '0', textAlign: 'center', marginBottom: '0'}}>Reviews left by our satisfied customers!</h2>
-              <h3 style={{padding: '20px', margin: '0', textAlign: 'center'}} level={2}>Be sure to checkout our Yelp, Facebook, and Instagram for more!</h3>
+              <h3 style={{padding: '20px', margin: '0', textAlign: 'center'}} level={2}>Be sure to checkout our <a href="https://www.yelp.com/biz/lone-star-general-remodeling-houston" rel="noreferrer">Yelp</a>, <a href="https://www.facebook.com/lonestarcarpetinstallation/" rel="noreferrer">Facebook</a>, and <a href="https://www.instagram.com/lonestargeneralremodeling/" rel="noreferrer">Instagram</a> for more!</h3>
             </div>
             <div style={{padding: '20px', margin: '0'}}>
                 <Carousel autoplay arrows={true} prevArrow={<LeftOutlined />} nextArrow={<RightOutlined/>} dotPosition='top'>

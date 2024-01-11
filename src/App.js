@@ -68,7 +68,7 @@ function App() {
             <Route path="/general-contractor-houston/" element={<GC/>}></Route>
           </Routes> 
         </Content>
-        <Footer style={{ textAlign: 'center', backgroundColor: 'white'}}>Lone Star General Remodeling</Footer>
+        <Footer style={{ textAlign: 'center', backgroundColor: '#C00A30', color: 'white'}}><b>Lone Star General Remodeling</b></Footer>
       </Layout>
     </Router>
   );

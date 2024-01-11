@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: white;
+  cursor: url(../public/lsgr.cur), auto !important;
 }
 
 code {
@@ -13,43 +14,71 @@ code {
     monospace;
 }
 
+a {
+  color: #022869;
+  cursor: url(../public/lsgr.cur), auto;
+}
+
 .header{
-  background-color: white;
+  background-color: #565658;
   height: 100%;
   font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
   font-size: 25px;
+  /* position: fixed; */
+  /* width: 100%; */
+}
+
+.header img {
+  object-fit: contain;
 }
 
 @media (max-width: 700px) {
   .header {
-    background-color: white;
+    background-color: #565658;
     height: 100%;
     font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
     font-size: 15px;
+    color: white;
+    /* position: fixed; */
+  }
+  .header img {
+    object-fit: contain;
   }
 }
 
 @media (max-width: 500px){
   .paragraph {
     text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #022869;
+    color: white;
+    padding-top: 14px;
+    padding-bottom: 14px;
   }
 }
 
 @media (min-width: 500px) and (max-width: 850px){
   .paragraph {
     text-align: center;
-    margin-left: 70px;
-    margin-right: 70px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: #022869;
+    color: white;
+    padding-top: 14px;
+    padding-bottom: 14px;
   }
 }
 
 @media (min-width: 850px) {
   .paragraph {
     text-align: center;
-    margin-left: 150px;
-    margin-right: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #022869;
+    color: white;
+    padding-top: 14px;
+    padding-bottom: 14px;
   }
 }
 
@@ -111,7 +140,13 @@ code {
 .ant-menu-item-selected {
   background-color: none !important;
   border: none !important;
+  color: #022869 !important;
 } 
+
+.ant-menu-item { 
+  color: #C00A30; 
+}
+
 
 .ant-menu-item-selected::after {
   border-bottom: none !important;
@@ -129,7 +164,7 @@ code {
   font-size: inherit;
   left: 20%;
   z-index: 2;
-  color: #1677ff;
+  color: #022869;
 }
 
 .ant-carousel .slick-next,
@@ -138,11 +173,15 @@ code {
   font-size: inherit;
   right: 20%;
   z-index: 2;
-  color: #1677ff;
+  color: #022869;
 }
 
 .ant-carousel .slick-slider .slick-track {
   /* width: 100% !important; */
+}
+
+.ant-layout .ant-layout-header {
+  line-height: 0px !important;
 }
 
 .carouselCntr {

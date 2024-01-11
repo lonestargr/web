@@ -113,8 +113,9 @@ function MainMenu() {
                 <Link to="/portfolio/" />
             </Menu.Item>
             <Dropdown menu={{
-              items,
-            }}>
+              items
+            }}
+            overlayStyle={{cursor: "url(../../public/lsgr.cur), auto"}}>
               <Menu.Item key="/contact/" label="Contact">
                   <div>Services</div>
               </Menu.Item>
