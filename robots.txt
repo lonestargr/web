@@ -4,5 +4,11 @@ Allow: /
 Allow: /portfolio/
 Allow: /about/
 Allow: /contact/
+Allow: /commercial-remodeling/
+Allow: /general-contractor-houston/
+Allow: /house-renovations/
+Allow: /bathroom-remodeling/
+Allow: /kitchen-remodeling/
+Allow: /lvt-flooring-installation/
 
 Sitemap: https://www.lsgenrem.com/sitemap.xml
