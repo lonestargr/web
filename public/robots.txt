@@ -11,4 +11,4 @@ Allow: /bathroom-remodeling/
 Allow: /kitchen-remodeling/
 Allow: /lvt-flooring-installation/
 
-Sitemap: https://www.lsgenrem.com/sitemap.xml
+Sitemap: https://lsgenrem.com/sitemap.xml
