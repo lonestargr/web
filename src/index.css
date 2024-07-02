@@ -6,7 +6,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: white;
-  cursor: url(../public/lsgr.cur), auto !important;
 }
 
 code {
@@ -16,7 +15,6 @@ code {
 
 a {
   color: #022869;
-  cursor: url(../public/lsgr.cur), auto;
 }
 
 .header{

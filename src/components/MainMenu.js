@@ -115,7 +115,7 @@ function MainMenu() {
             <Dropdown menu={{
               items
             }}
-            overlayStyle={{cursor: "url(../../public/lsgr.cur), auto"}}>
+            overlayStyle={{}}>
               <Menu.Item key="/contact/" label="Contact">
                   <div>Services</div>
               </Menu.Item>
