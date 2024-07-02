@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3a94f7af.css",
-    "main.js": "/static/js/main.cdb683aa.js",
+    "main.css": "/static/css/main.c56d48c6.css",
+    "main.js": "/static/js/main.ed01ddcb.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/ms_ruth4.jpg": "/static/media/ms_ruth4.883706962eafd00abf6d.jpg",
     "static/media/ms_ruth1.jpg": "/static/media/ms_ruth1.7c4231595a2ef3b87f63.jpg",
@@ -179,15 +179,14 @@
     "static/media/Mohit17.jpeg": "/static/media/Mohit17.7b63ec01a9d2994e84e5.jpeg",
     "static/media/lvt-risers.jpeg": "/static/media/lvt-risers.3b969d02f61283bba0ba.jpeg",
     "static/media/lonestarlogo.jpeg": "/static/media/lonestarlogo.346a08857fe1e3992007.jpeg",
-    "static/media/lsgr.cur": "/static/media/lsgr.54a8d796dd24fb1bb3cd.cur",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.3a94f7af.css.map": "/static/css/main.3a94f7af.css.map",
-    "main.cdb683aa.js.map": "/static/js/main.cdb683aa.js.map",
+    "main.c56d48c6.css.map": "/static/css/main.c56d48c6.css.map",
+    "main.ed01ddcb.js.map": "/static/js/main.ed01ddcb.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a94f7af.css",
-    "static/js/main.cdb683aa.js"
+    "static/css/main.c56d48c6.css",
+    "static/js/main.ed01ddcb.js"
   ]
 }
