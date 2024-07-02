@@ -2,16 +2,14 @@
 import '../App.css';
 import React from 'react';
 import '../index.css';
-import { Image, Carousel } from 'antd';
-import yelp1 from '../assets/images/yelp1.png'
-import yelp2 from '../assets/images/yelp2.png'
-import yelp3 from '../assets/images/yelp3.png'
-import yelp4 from '../assets/images/yelp4.png'
-import yelp5 from '../assets/images/yelp5.png'
-import yelp6 from '../assets/images/yelp6.jpg'
+import { Image } from 'antd';
 import { logo } from '../assets/images'
 import { Helmet } from 'react-helmet-async';
 import { LeftOutlined, RightOutlined } from "@ant-design/icons";
+import Carousel from './Carousel';
+
+const Yelp = require.context('../assets/images/YELP', true);
+const imageListYelp = Yelp.keys().map(image => Yelp(image))
 
 
 function Home() {
@@ -44,55 +42,10 @@ function Home() {
                 We also offer financing with Hearth and Synchrony for interested clients. Contact us today to get started with that general remodeling project you've been wanting!
               </p>
               <h2 style={{padding: '20px', margin: '0', textAlign: 'center', marginBottom: '0'}}>Reviews left by our satisfied customers!</h2>
+              <div>
+                <Carousel images={imageListYelp}/>
+              </div>
               <h3 style={{padding: '20px', margin: '0', textAlign: 'center'}} level={2}>Be sure to checkout our <a href="https://www.yelp.com/biz/lone-star-general-remodeling-houston" rel="noreferrer">Yelp</a>, <a href="https://www.facebook.com/lonestarcarpetinstallation/" rel="noreferrer">Facebook</a>, and <a href="https://www.instagram.com/lonestargeneralremodeling/" rel="noreferrer">Instagram</a> for more!</h3>
-            </div>
-            <div style={{padding: '20px', margin: '0'}}>
-                <Carousel autoplay arrows={true} prevArrow={<LeftOutlined />} nextArrow={<RightOutlined/>} dotPosition='top'>
-                  <div class="carouselCntr">
-                    <Image
-                      src={ yelp1 }
-                      alt="Lone Star General Remodeling Houston General Remodeling yelp"
-                      preview={false}
-                    />
-                  </div>
-                  <div class="carouselCntr">
-                    <Image
-                    height={350}
-                    width={400}
-                    src={ yelp6 }
-                    alt="Lone Star General Remodeling Houston General Remodeling yelp"
-                    preview={false}
-                    />
-                  </div>
-                  <div class="carouselCntr">
-                    <Image
-                    src={ yelp2 }
-                    alt="Lone Star General Remodeling Houston General Remodeling yelp"
-                    preview={false}
-                    />
-                  </div>
-                  <div class="carouselCntr">
-                    <Image
-                    src={ yelp3 }
-                    alt="Lone Star General Remodeling Houston General Remodeling yelp"
-                    preview={false}
-                    />
-                  </div>
-                  <div class="carouselCntr">
-                    <Image
-                    src={ yelp4 }
-                    alt="Lone Star General Remodeling Houston General Remodeling yelp"
-                    preview={false}
-                    />
-                  </div>
-                  <div class="carouselCntr">
-                    <Image
-                    src={ yelp5 }
-                    alt="Lone Star General Remodeling Houston General Remodeling yelp"
-                    preview={false}
-                    />
-                  </div>
-                </Carousel>
             </div>
         </div>
         {/* <IconFont type="icon-facebook" /> */}
